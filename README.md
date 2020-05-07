@@ -1,1 +1,1 @@
-# vanilaJS-timer
+Таймер обратного отсчёта на ванильном JavaScript
