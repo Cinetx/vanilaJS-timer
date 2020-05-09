@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', function() {
         };
     }
 
-    function setClock(id, endtime) {
+    function setClock(id, endtime = Date()) {
         let timer = document.getElementById(id),
             hours = timer.querySelector('.hours'),
             minutes = timer.querySelector('.minutes'),
